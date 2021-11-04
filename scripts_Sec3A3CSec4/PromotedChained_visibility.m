@@ -8,7 +8,7 @@
 mydir  = pwd;
 idcs   = strfind(mydir,filesep);
 newdir = mydir(1:idcs(end)-1);
-newdir2 = strcat(newdir,filesep,'functions',filesep);
+newdir2 = strcat(newdir,filesep,'aux_funcSec3A3CSec4',filesep);
 newdir3 = strcat(newdir,filesep,'QETLAB-0.9',filesep);
 addpath(newdir2);
 addpath(genpath(newdir3));

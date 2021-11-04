@@ -14,7 +14,7 @@ diary aux_chidep.txt
 mydir  = pwd;
 idcs   = strfind(mydir,filesep);
 newdir = mydir(1:idcs(end)-1);
-newdir2 = strcat(newdir,filesep,'functions',filesep);
+newdir2 = strcat(newdir,filesep,'aux_funcSec3A3CSec4',filesep);
 addpath(newdir);
 addpath(newdir2);
 
