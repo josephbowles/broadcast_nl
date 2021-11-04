@@ -1,0 +1,130 @@
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+'bellcoeffs_arxiv1112_2626.mat' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots_16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\finalplot_only16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_mafalda1
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\Copy_of_ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\scripts
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\optimizer_scripts
+
+Change the MATLAB current folder or add its folder to the MATLAB path.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NS2activation_POVMstate_ineq16', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m', 14)" style="font-weight:bold">NS2activation_POVMstate_ineq16</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m',14,0)">line 14</a>)
+load('bellcoeffs_arxiv1112_2626.mat'); % loads 'bellcoeffs_cell','local_upper_bounds','ins','outs'
+} 
+NS2activation_POVMstate_ineq16
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+'table3_arXiv1112_2626.mat' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots_16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\finalplot_only16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_mafalda1
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\Copy_of_ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\scripts
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\r1\vis073
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\optimizer_scripts
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\r1\vis071
+
+Change the MATLAB current folder or add its folder to the MATLAB path.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NS2activation_POVMstate_ineq16', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m', 15)" style="font-weight:bold">NS2activation_POVMstate_ineq16</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m',15,0)">line 15</a>)
+load('table3_arXiv1112_2626.mat'); % loads 'table3arXiv11122626'
+} 
+NS2activation_POVMstate_ineq16
+Calculating YALMIP's 'optimizer' for optimization over channels. It can take a while depending on the size of the problem.
+{'give_ia_state' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots_16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\finalplot_only16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_mafalda1
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\Copy_of_ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\optimizer_scripts
+
+Change the MATLAB current folder or add its folder to the MATLAB path.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimizer_channel', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimizer_channel.m', 20)" style="font-weight:bold">optimizer_channel</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimizer_channel.m',20,0)">line 20</a>)
+    ia_state = give_ia_state(state);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NS2activation_POVMstate_ineq16', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m', 22)" style="font-weight:bold">NS2activation_POVMstate_ineq16</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m',22,0)">line 22</a>)
+optimizer_ch = optimizer_channel(ins, outs, 2);
+} 
+NS2activation_POVMstate_ineq16
+Calculating YALMIP's 'optimizer' for optimization over channels. It can take a while depending on the size of the problem.
+Calculating YALMIP's 'optimizer' for the POVM of party 1. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 2. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 3. It can take a while.
+
+	Inequality number = 16
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+! The Bell values of the probability distributions are too close. tol: 0.000000
+2 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+3 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+4 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+5 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+! The probability distributions are too close. tol: 0.000000
+6 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+! The probability distributions are too close. tol: 0.000000
+7 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+   Found good initial condition. Bell value:4.004335 NS2Bound:4.000000 diff=0.00433517 ineq_visibility= 0.038462 state_vis=0.000000
+Good initial condition. diff=0.00433517
+1 Final state visibility       : 	0.182608
+
+	New best visibility found! p=0.182608 (UNS B->A, Steerable A->B for p>=0.155505, i.e., LHV for p>=0.155505)
+! The Bell values of the probability distributions are too close. tol: 0.000000
+1 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+   Found good initial condition. Bell value:4.004322 NS2Bound:4.000000 diff=0.00432201 ineq_visibility= 0.034799 state_vis=0.000000
+Good initial condition. diff=0.00432201
+2 Final state visibility       : 	0.182642
+
+	New best visibility found! p=0.182642 (UNS B->A, Steerable A->B for p>=0.155505, i.e., LHV for p>=0.155505)
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+   Found good initial condition. Bell value:4.004350 NS2Bound:4.000000 diff=0.00435042 ineq_visibility= 0.036996 state_vis=0.000000
+Good initial condition. diff=0.00435042
+3 Final state visibility       : 	0.182634
+   Found good initial condition. Bell value:4.004322 NS2Bound:4.000000 diff=0.00432226 ineq_visibility= 0.034670 state_vis=0.000000
+Good initial condition. diff=0.00432226
+4 Final state visibility       : 	0.182629
+   Found good initial condition. Bell value:4.004345 NS2Bound:4.000000 diff=0.00434539 ineq_visibility= 0.033031 state_vis=0.000000
+Good initial condition. diff=0.00434539
+5 Final state visibility       : 	0.182631
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+3 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+   Found good initial condition. Bell value:4.004351 NS2Bound:4.000000 diff=0.00435144 ineq_visibility= 0.038114 state_vis=0.000000
+Good initial condition. diff=0.00435144
+6 Final state visibility       : 	0.182636
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+3 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+4 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+5 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+! The probability distributions are too close. tol: 0.000000
+6 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+   Found good initial condition. Bell value:4.004323 NS2Bound:4.000000 diff=0.0043226 ineq_visibility= 0.034873 state_vis=0.000000
+Good initial condition. diff=0.0043226
+7 Final state visibility       : 	0.182643
+
+	New best visibility found! p=0.182643 (UNS B->A, Steerable A->B for p>=0.155505, i.e., LHV for p>=0.155505)
+! The Bell values of the probability distributions are too close. tol: 0.000000
+1 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+! The Bell values of the probability distributions are too close. tol: 0.000000
+3 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+   Found good initial condition. Bell value:4.004349 NS2Bound:4.000000 diff=0.00434914 ineq_visibility= 0.037872 state_vis=0.000000
+Good initial condition. diff=0.00434914
+8 Final state visibility       : 	0.182646
+
+	New best visibility found! p=0.182646 (UNS B->A, Steerable A->B for p>=0.155505, i.e., LHV for p>=0.155505)
+! The Bell values of the probability distributions are too close. tol: 0.000000
+1 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+3 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+Couldn't find a good initial point before hitting the maximum number of iterations. Going to a different inequality.Saving current workspace to file.
+
+CHI LOOP chi bestfinalstatevisibility pthresh ineqnr = 0.050000 0.182646 0.155505 16
+
+
+Elapsed time is 167.770842 seconds.

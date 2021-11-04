@@ -1,0 +1,227 @@
+Calculating YALMIP's 'optimizer' for optimization over channels. It can take a while depending on the size of the problem.
+Calculating YALMIP's 'optimizer' for the POVM of party 1. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 2. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 3. It can take a while.
+
+	Inequality number = 16
+{'give_good_initial_condition_ineq' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots_16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\finalplot_only16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\Copy_of_ns2_selectedplots
+
+Change the MATLAB current folder or add its folder to the MATLAB path.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NS2activation_POVMstate_ineq16', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m', 104)" style="font-weight:bold">NS2activation_POVMstate_ineq16</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m',104,0)">line 104</a>)
+        [POVMs, channel, finalObj, alpha, FLAG] = give_good_initial_condition_ineq(optimizer_objects, bellcoeffs, localboundNS2, STATE_SETTINGS,
+        VARIOUS_CONSTANTS, ins, outs);
+} 
+NS2activation_POVMstate_ineq16
+Calculating YALMIP's 'optimizer' for optimization over channels. It can take a while depending on the size of the problem.
+Calculating YALMIP's 'optimizer' for the POVM of party 1. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 2. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 3. It can take a while.
+
+	Inequality number = 16
+{'optimizer_seesaw' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_mafalda1
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_mafalda1''')">Change the MATLAB current folder</a> or <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_mafalda1''')">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('give_good_initial_condition_ineq', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\give_good_initial_condition_ineq.m', 22)" style="font-weight:bold">give_good_initial_condition_ineq</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\give_good_initial_condition_ineq.m',22,0)">line 22</a>)
+    [POVMs,finalObj,channel] = optimizer_seesaw(optimizer_objects, bellcoeffs, NoisyState(state_visibility, STATE_SETTINGS), POVMs, channel, ins, outs);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NS2activation_POVMstate_ineq16', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m', 104)" style="font-weight:bold">NS2activation_POVMstate_ineq16</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m',104,0)">line 104</a>)
+        [POVMs, channel, finalObj, alpha, FLAG] = give_good_initial_condition_ineq(optimizer_objects, bellcoeffs, localboundNS2, STATE_SETTINGS,
+        VARIOUS_CONSTANTS, ins, outs);
+} 
+NS2activation_POVMstate_ineq16
+Calculating YALMIP's 'optimizer' for optimization over channels. It can take a while depending on the size of the problem.
+Calculating YALMIP's 'optimizer' for the POVM of party 1. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 2. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 3. It can take a while.
+
+	Inequality number = 16
+{'give_Bell_operator' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots_16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\finalplot_only16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_mafalda1
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\Copy_of_ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\optimizer_scripts
+
+Change the MATLAB current folder or add its folder to the MATLAB path.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimizer_seesaw', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimizer_seesaw.m', 22)" style="font-weight:bold">optimizer_seesaw</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimizer_seesaw.m',22,0)">line 22</a>)
+    belloperator = give_Bell_operator(bellcoeffs, POVMs, ins, outs);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('give_good_initial_condition_ineq', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\give_good_initial_condition_ineq.m', 22)" style="font-weight:bold">give_good_initial_condition_ineq</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\give_good_initial_condition_ineq.m',22,0)">line 22</a>)
+    [POVMs,finalObj,channel] = optimizer_seesaw(optimizer_objects, bellcoeffs, NoisyState(state_visibility, STATE_SETTINGS), POVMs, channel, ins, outs);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NS2activation_POVMstate_ineq16', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m', 104)" style="font-weight:bold">NS2activation_POVMstate_ineq16</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m',104,0)">line 104</a>)
+        [POVMs, channel, finalObj, alpha, FLAG] = give_good_initial_condition_ineq(optimizer_objects, bellcoeffs, localboundNS2, STATE_SETTINGS,
+        VARIOUS_CONSTANTS, ins, outs);
+} 
+NS2activation_POVMstate_ineq16
+Calculating YALMIP's 'optimizer' for optimization over channels. It can take a while depending on the size of the problem.
+Calculating YALMIP's 'optimizer' for the POVM of party 1. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 2. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 3. It can take a while.
+
+	Inequality number = 16
+{'give_partial_products' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots_16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\finalplot_only16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_mafalda1
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\Copy_of_ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\optimizer_scripts
+
+Change the MATLAB current folder or add its folder to the MATLAB path.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimizer_seesaw', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimizer_seesaw.m', 37)" style="font-weight:bold">optimizer_seesaw</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimizer_seesaw.m',37,0)">line 37</a>)
+    partial_products_for_a = give_partial_products(POVMs, bellcoeffs, 1, ins, outs);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('give_good_initial_condition_ineq', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\give_good_initial_condition_ineq.m', 22)" style="font-weight:bold">give_good_initial_condition_ineq</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\give_good_initial_condition_ineq.m',22,0)">line 22</a>)
+    [POVMs,finalObj,channel] = optimizer_seesaw(optimizer_objects, bellcoeffs, NoisyState(state_visibility, STATE_SETTINGS), POVMs, channel, ins, outs);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NS2activation_POVMstate_ineq16', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m', 104)" style="font-weight:bold">NS2activation_POVMstate_ineq16</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m',104,0)">line 104</a>)
+        [POVMs, channel, finalObj, alpha, FLAG] = give_good_initial_condition_ineq(optimizer_objects, bellcoeffs, localboundNS2, STATE_SETTINGS,
+        VARIOUS_CONSTANTS, ins, outs);
+} 
+NS2activation_POVMstate_ineq16
+Calculating YALMIP's 'optimizer' for optimization over channels. It can take a while depending on the size of the problem.
+Calculating YALMIP's 'optimizer' for the POVM of party 1. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 2. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 3. It can take a while.
+
+	Inequality number = 16
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+! The probability distributions are too close. tol: 0.000000
+3 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+! The Bell values of the probability distributions are too close. tol: 0.000000
+4 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+5 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+6 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+7 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+   Found good initial condition. Bell value:4.004323 NS2Bound:4.000000 diff=0.00432257 ineq_visibility= 0.034925 state_vis=0.000000
+Good initial condition. diff=0.00432257
+{'optimize_state_visibility' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots_16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\finalplot_only16
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\ns2_selectedplots
+    C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast2\Copy_of_ns2_selectedplots
+
+Change the MATLAB current folder or add its folder to the MATLAB path.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NS2activation_POVMstate_ineq16', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m', 110)" style="font-weight:bold">NS2activation_POVMstate_ineq16</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m',110,0)">line 110</a>)
+            [POVMs, channel, state_visibility] = optimize_state_visibility(optimizer_objects, bellcoeffs, localboundNS2, POVMs, channel, STATE_SETTINGS,
+            VARIOUS_CONSTANTS, ins, outs);
+} 
+
+	Inequality number = 16
+! The probability distributions are too close. tol: 0.000000
+1 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+   Found good initial condition. Bell value:4.004347 NS2Bound:4.000000 diff=0.00434737 ineq_visibility= 0.032244 state_vis=0.000000
+Good initial condition. diff=0.00434737
+Final state visibility       : 	0.182632
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+3 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+   Found good initial condition. Bell value:4.004322 NS2Bound:4.000000 diff=0.00432228 ineq_visibility= 0.034791 state_vis=0.000000
+Good initial condition. diff=0.00432228
+Final state visibility       : 	0.182640
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+   Found good initial condition. Bell value:4.004322 NS2Bound:4.000000 diff=0.00432206 ineq_visibility= 0.034648 state_vis=0.000000
+Good initial condition. diff=0.00432206
+Final state visibility       : 	0.182633
+   Found good initial condition. Bell value:4.000316 NS2Bound:4.000000 diff=0.000315949 ineq_visibility= 0.000216 state_vis=0.000000
+Good initial condition. diff=0.000315949
+Final state visibility       : 	0.182643
+   Found good initial condition. Bell value:4.004322 NS2Bound:4.000000 diff=0.00432214 ineq_visibility= 0.034751 state_vis=0.000000
+Good initial condition. diff=0.00432214
+Final state visibility       : 	0.182640
+   Found good initial condition. Bell value:4.004322 NS2Bound:4.000000 diff=0.00432189 ineq_visibility= 0.034772 state_vis=0.000000
+Good initial condition. diff=0.00432189
+Final state visibility       : 	0.182643
+   Found good initial condition. Bell value:4.004322 NS2Bound:4.000000 diff=0.00432188 ineq_visibility= 0.034641 state_vis=0.000000
+Good initial condition. diff=0.00432188
+Final state visibility       : 	0.182639
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+3 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+Couldn't find a good initial point before hitting the maximum number of iterations. Going to a different inequality.Saving current workspace to file.
+
+CHI LOOP chi pcrit pthresh ineqnr = 0.050000 0.182643 0.155505 16
+
+
+Elapsed time is 176.912078 seconds.
+NS2activation_POVMstate_ineq16
+Calculating YALMIP's 'optimizer' for optimization over channels. It can take a while depending on the size of the problem.
+Calculating YALMIP's 'optimizer' for the POVM of party 1. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 2. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 3. It can take a while.
+
+	Inequality number = 16
+! The Bell values of the probability distributions are too close. tol: 0.000000
+1 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+   Found good initial condition. Bell value:4.004322 NS2Bound:4.000000 diff=0.0043224 ineq_visibility= 0.034808 state_vis=0.000000
+Good initial condition. diff=0.0043224
+1 Final state visibility       : 	0.182642
+
+	New best visibility found! p=0.182642 (UNS B->A, Steerable A->B for p>=0.155505)
+   Found good initial condition. Bell value:4.004343 NS2Bound:4.000000 diff=0.00434287 ineq_visibility= 0.037962 state_vis=0.000000
+Good initial condition. diff=0.00434287
+2 Final state visibility       : 	0.182615
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+Couldn't find a good initial point before hitting the maximum number of iterations. Going to a different inequality.Saving current workspace to file.
+
+CHI LOOP chi bestfinalstatevisibility pthresh ineqnr = 0.050000 0.182642 0.155505 16
+
+
+Elapsed time is 35.183495 seconds.
+NS2activation_POVMstate_ineq16
+Calculating YALMIP's 'optimizer' for optimization over channels. It can take a while depending on the size of the problem.
+Calculating YALMIP's 'optimizer' for the POVM of party 1. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 2. It can take a while.
+Calculating YALMIP's 'optimizer' for the POVM of party 3. It can take a while.
+
+	Inequality number = 16
+1 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+2 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+! The probability distributions are too close. tol: 0.000000
+3 Visibility LP not solver correctly (LPstatus=1). Trying another initial condition.
+4 Visibility LP not solver correctly (LPstatus=0). Trying another initial condition.
+   Found good initial condition. Bell value:4.000287 NS2Bound:4.000000 diff=0.000286696 ineq_visibility= 0.000198 state_vis=0.000000
+Good initial condition. diff=0.000286696
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('call_mosek_dual>doCall', 'C:\Users\eboghiu\MATLAB external\YALMIP-master\solvers\call_mosek_dual.m', 107)" style="font-weight:bold">call_mosek_dual>doCall</a> (<a href="matlab: opentoline('C:\Users\eboghiu\MATLAB external\YALMIP-master\solvers\call_mosek_dual.m',107,0)">line 107</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('call_mosek_dual', 'C:\Users\eboghiu\MATLAB external\YALMIP-master\solvers\call_mosek_dual.m', 59)" style="font-weight:bold">call_mosek_dual</a> (<a href="matlab: opentoline('C:\Users\eboghiu\MATLAB external\YALMIP-master\solvers\call_mosek_dual.m',59,0)">line 59</a>)
+[r,res,solvertime] = doCall(prob,param,model.options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('callmosek>call_mosek_lpqpsocpsdp', 'C:\Users\eboghiu\MATLAB external\YALMIP-master\solvers\callmosek.m', 97)" style="font-weight:bold">callmosek>call_mosek_lpqpsocpsdp</a> (<a href="matlab: opentoline('C:\Users\eboghiu\MATLAB external\YALMIP-master\solvers\callmosek.m',97,0)">line 97</a>)
+        [x,D_struc,problem,r,res,solvertime,prob] = call_mosek_dual(model);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('callmosek', 'C:\Users\eboghiu\MATLAB external\YALMIP-master\solvers\callmosek.m', 51)" style="font-weight:bold">callmosek</a> (<a href="matlab: opentoline('C:\Users\eboghiu\MATLAB external\YALMIP-master\solvers\callmosek.m',51,0)">line 51</a>)
+    [x,D_struc,problem,r,res,solvertime,prob] = call_mosek_lpqpsocpsdp(model);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimizer/subsref', 'C:\Users\eboghiu\MATLAB external\YALMIP-master\extras\@optimizer\subsref.m', 326)" style="font-weight:bold">optimizer/subsref</a> (<a href="matlab: opentoline('C:\Users\eboghiu\MATLAB external\YALMIP-master\extras\@optimizer\subsref.m',326,0)">line 326</a>)
+                eval(['output = ' self.model.solver.call '(self.model);']);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimizer/subsref', 'C:\Users\eboghiu\MATLAB external\YALMIP-master\extras\@optimizer\subsref.m', 9)" style="font-weight:bold">optimizer/subsref</a> (<a href="matlab: opentoline('C:\Users\eboghiu\MATLAB external\YALMIP-master\extras\@optimizer\subsref.m',9,0)">line 9</a>)
+    [varargout{1:nargout}] = subsref(self,subs);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimizer_seesaw', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimizer_seesaw.m', 64)" style="font-weight:bold">optimizer_seesaw</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimizer_seesaw.m',64,0)">line 64</a>)
+    output = optimizer_c([{ia_output_state}, partial_products_for_c(:)']);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('optimize_state_visibility', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimize_state_visibility.m', 27)" style="font-weight:bold">optimize_state_visibility</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\functions\optimize_state_visibility.m',27,0)">line 27</a>)
+    [POVMs,~,channel] = optimizer_seesaw(optimizer_objects, bellcoeffs, NoisyState(state_visibility, STATE_SETTINGS), POVMs, channel, ins, outs);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('NS2activation_POVMstate_ineq16', 'C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m', 110)" style="font-weight:bold">NS2activation_POVMstate_ineq16</a> (<a href="matlab: opentoline('C:\Users\eboghiu\OneDrive - ICFO\Documents\Code\broadcast_nl\scripts_Section3\NS2activation_POVMstate_ineq16.m',110,0)">line 110</a>)
+            [POVMs, channel, state_visibility] = optimize_state_visibility(optimizer_objects, bellcoeffs, localboundNS2, POVMs, channel, STATE_SETTINGS,
+            VARIOUS_CONSTANTS, ins, outs);
+} 
+NS2activation_POVMstate_ineq16
