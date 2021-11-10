@@ -21,20 +21,6 @@ Script which is read to perform a Heuristic Search method to find the optimal vi
 
 - Various subroutines and useful functions which are commented in a way to allow the users to adapt it for similar problems.
 
-# Section III
-
-Subsection A
-
-1. script1 contains codes that takes a 2-party Bell inequality in correlator notation as defined in the manuscript and translates it into an inequality in terms of probabilities
-
-2. script2 gives the point certifying visibility 0.61 for the promoted Elegant inequality
-
-3. script3 gives the point certifying visibility 0.67 for the promoted Chained inequality
-
-4. script4 gives the program that optimizes a generic inequality
-
-Subsection C
-
-# Section IV
+- The folder scripts_Sec3A3CSec4 which contains the code and required variables to verify the results presented in Section III
 
 
