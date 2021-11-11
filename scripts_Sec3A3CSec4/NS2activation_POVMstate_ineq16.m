@@ -1,6 +1,6 @@
 % This script optimizes over a channel and the party measurements to find
 % an example of NS genuinte network nonlocality activation. It uses
-% inequality 16 from arxiv 1112.2626 but on line 40 on can optimize over
+% inequality 16 from arxiv 1112.2626 but on line 40 one can optimize over
 % any inequality desired. On line 39 one can set over which angles chi to
 % look at. After enough time, it should converge to p=0.182642, which means
 % that for p<=0.182642 there is an inequality certifying the state is NS2
