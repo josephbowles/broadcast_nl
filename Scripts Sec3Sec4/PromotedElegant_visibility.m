@@ -1,14 +1,15 @@
 %%
-% Code to find the visibility of the Chained 33-22 inequality promoted to the
+% Code to find the visibility of the Elegant inequality promoted to the
 % broadcast scenario with 1 Alice and 2 Bobs. The visibility returned by
 % the program uses the opposite convention (vis=0 == maximally entangled
 % state and vis=1 == noisy state). After enough iterations it will give as
-% best visibility vis=0.61... in the paper (vis=1-0.61..=0.39 in the code).
+% best visibility vis=0.68... in the paper (vis=1-0.61..=0.32 in the code).
+
 
 mydir  = pwd;
 idcs   = strfind(mydir,filesep);
 newdir = mydir(1:idcs(end)-1);
-newdir2 = strcat(newdir,filesep,'aux_funcSec3A3CSec4',filesep);
+newdir2 = strcat(newdir,filesep,'Aux functions Sec3Sec4',filesep);
 newdir3 = strcat(newdir,filesep,'QETLAB-0.9',filesep);
 addpath(newdir2);
 addpath(genpath(newdir3));
@@ -17,7 +18,7 @@ addpath(genpath(newdir3));
 %rng(1234); % this seems to saturate the local bound
 rng('default');
 
-load('bellcoeffsChained3322broadcast.mat');
+load('bellcoeffsEBIbroadcast.mat');
 
 final_round_alpha = []; % store the final visibility after a round of 
 final_round_povm = {};
