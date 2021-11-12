@@ -1,6 +1,6 @@
 % This script optimizes over a channel and the party measurements to find
 % an example of NS genuinte network nonlocality activation. It uses
-% inequality 16 from arxiv 1112.2626 but on line 40 on can optimize over
+% inequality 16 from arxiv 1112.2626 but on line 40 one can optimize over
 % any inequality desired. On line 39 one can set over which angles chi to
 % look at. After enough time, it should converge to p=0.182642, which means
 % that for p<=0.182642 there is an inequality certifying the state is NS2
@@ -14,7 +14,7 @@ diary aux_chidep.txt
 mydir  = pwd;
 idcs   = strfind(mydir,filesep);
 newdir = mydir(1:idcs(end)-1);
-newdir2 = strcat(newdir,filesep,'aux_funcSec3A3CSec4',filesep);
+newdir2 = strcat(newdir,filesep,'Aux functions Sec3Sec4',filesep);
 addpath(newdir);
 addpath(newdir2);
 

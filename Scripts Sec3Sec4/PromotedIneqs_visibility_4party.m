@@ -1,17 +1,17 @@
-%%
 % Code to find the visibilities of inequalities promoted to the broadcast
 % scenario with 2 alices and 2 bobs. The promoted inequalities are CHSH,
 % the Chained inequality with 3 inputs and the Elegant Bell inequality.
 % The visibilities are the same as in the 1 alice 2 bobs broadcast
 % scenario, namely 0.5777, 0.61 and 0.68. Note that the code uses the
 % opposite convention and it returns 1 minus the above visibilities.
+% Choose which inequality to load on lines 21-23.
 
 %%
 
 mydir  = pwd;
 idcs   = strfind(mydir,filesep);
 newdir = mydir(1:idcs(end)-1);
-newdir2 = strcat(newdir,filesep,'aux_funcSec3A3CSec4',filesep);
+newdir2 = strcat(newdir,filesep,'Aux functions Sec3Sec4',filesep);
 addpath(newdir2);
 
 
@@ -20,17 +20,6 @@ addpath(newdir2);
 %load('bellcoeffs_chained_4party_broadcast.mat');
 %load('bellcoeffs_ebi_4party_broadcast.mat');
 load('bellcoeffs_chsh_4party_broadcast.mat');
-
-%%
-bellcoeffs = bellcoeffs;
-
-% ins = size(bellcoeffs,1:4);
-% outs = size(bellcoeffs,5:8);
-% 
-% corr2bell = fromCorrToBellMat(ins,outs);
-% 
-% bellcoeffs = reshape(corr2bell * corr_mat(2:end)',[ins outs]);
-% 
 
 %%
 
@@ -174,7 +163,3 @@ end
 
 
 end
-
-%%
-
-
