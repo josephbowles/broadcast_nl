@@ -144,11 +144,11 @@ violc = Inequality'*(vis*BroadcastBehaviourRhoFinal'+(1-vis)*BroadcastBehaviourR
 
 
 %Store the results
-all_info_HeuristicIsotropicState = cell(1,5);
+all_info_Heuristic = cell(1,5);
 
-all_info_HeuristicIsotropicState{1,1}=vis;  all_info_HeuristicIsotropicState{1,2}=Choi;  all_info_HeuristicIsotropicState{1,3}=Meas;
+all_info_Heuristic{1,1}=vis;  all_info_Heuristic{1,2}=Choi;  all_info_Heuristic{1,3}=Meas;
 
-all_info_HeuristicIsotropicState{1,4}=Inequality;  all_info_HeuristicIsotropicState{1,5}=violc;
+all_info_Heuristic{1,4}=Inequality;  all_info_Heuristic{1,5}=violc;
 
 
 %Start the heuristic optimization (optimizes inequality, then computes
@@ -308,9 +308,9 @@ while gap > prec
     
     %Store the results
     
-    all_info_HeuristicIsotropicState{iteration,1}=vis;  all_info_HeuristicIsotropicState{iteration,2}=Choi;  all_info_HeuristicIsotropicState{iteration,3}=Meas;
+    all_info_Heuristic{iteration,1}=vis;  all_info_Heuristic{iteration,2}=Choi;  all_info_Heuristic{iteration,3}=Meas;
     
-    all_info_HeuristicIsotropicState{iteration,4}=Inequality;  all_info_HeuristicIsotropicState{iteration,5}=violc;
+    all_info_Heuristic{iteration,4}=Inequality;  all_info_Heuristic{iteration,5}=violc;
     
     
     
