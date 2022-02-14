@@ -1,7 +1,7 @@
 ## Code to accompany: [Device-independent and semi-device-independent entanglement certification in broadcast Bell scenarios](https://arxiv.org/abs/2111.06358)
 #### Flavien Hirsch, Emanuel-Cristian Boghiu, Pei-Sheng Lin, Marco Túlio Quintino, and Joseph Bowles
 
-This is a repository for the code used to calculate the numerical results presented in the article [Device-independent and semi-device-independent entanglement certification in broadcast Bell scenarios](https://arxiv.org/abs/2111.06358).
+This is a repository for the codes used to calculate the numerical results presented in the article [Device-independent and semi-device-independent entanglement certification in broadcast Bell scenarios](https://arxiv.org/abs/2111.06358).
 
  MATLAB code requires:
 - [CVX](http://cvxr.com/) - a free MATLAB toolbox for rapid prototyping of optimization problems.
@@ -12,7 +12,7 @@ This is a repository for the code used to calculate the numerical results presen
 The MATLAB code of this repository contains:
 
 - [PrepareAndRun_HeuristicSearchBroadcast.m](https://github.com/josephbowles/broadcast_nl/blob/main/PrepareAndRun_HeuristicSearchBroadcast.m):
-Script which is read to perform a Heuristic Search method to find the optimal visibility of a given quantum state in the broadcast nonlocal scenario. This script has several adjustable parameters such as, setting a target state and the relative noise, number of parties, number of input per parties, number of outputs.
+Script which is read to perform a Heuristic Search method to find the optimal visibility of a given quantum state in the broadcast nonlocality scenario. This script has several adjustable parameters such as, setting a target state and the relative noise, number of parties, number of input per parties, number of outputs.
 
 - [PrepareAndRun_SteeringHeuristicSearchBroadcast2Bobs.m](https://github.com/josephbowles/broadcast_nl/blob/main/PrepareAndRun_SteeringHeuristicSearchBroadcast2Bobs.m):
 Script which is read to perform a Heuristic Search method to find the optimal visibility of a given quantum state in the broadcast steering scenario with 2 untrusted Bobs. This script has various adjustable parameters such as, setting a target state and the relative noise, number of input per parties, number of outputs.
