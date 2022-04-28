@@ -1,7 +1,10 @@
 function POutput = Transform_NPartite_ProbabilityDistributions(Type,Scenario,PTarget,Normalization)
-% This code can transform multipartite probability distributions in CG form/
-% probabilities into probabilites/ CG form.
-%
+% This code can transform multipartite probability distributions in full
+% form which is a tensor with all probabilities p(a,b,x,y), or p(a,b,c,x,y,z)
+% into the probabilities on the CG (Collins-Gisin, https://arxiv.org/abs/quant-ph/0306129)form (which is more compact)
+% Also, if the probabilities are in CG form, this code transforms it into
+% the full probability form
+
 % 'InputType' should be either 'CG' or 'full'
 % 'Scenario' shoud in the form of [Oa|x=0, Oa|x=1, Ob|x=2, ...
 %                                  Ob|y=0, Ob|y=1, Ob|y=2, ...
