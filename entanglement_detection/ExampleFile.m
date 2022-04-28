@@ -50,6 +50,7 @@ p_T = Transform_NPartite_ProbabilityDistributions('full',[2,2;2,2;2,2],p_T);
 assert(abs(Vis1-1)<=1e-5);
 [Vis2,BellIneq2] = Vis_PPTHierarchy_NPartiteProb_BiseparableSet([2,2,2;2,2,2],p_T,p_W,1,[2],options);
 
+Vis=Vis
 Vis1=Vis1
 Vis2=Vis2
 
